@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-family: Palatino Linotype, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav, .footerNav{
+    height: 40px;
+    background-color: #000833;
+    background: linear-gradient(0deg, #00000099, #00000099), linear-gradient(270deg, #300AA2 0%, #613EFB 36%, #000645 99.99%);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Hnav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
+    padding: 20px;
+}
+.frame{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    background-color: #C7C4C4;
+    height: 520px;
+    margin: 0px auto;
+    border-radius: 4%;
+    border: outset 2px #930909;
+}
+
+.output{
+    box-sizing: border-box;
+    margin: 0px auto;
+    color: #000000;
+    width: 360px;
+    height: 120px;
+    background: #F3F3F3;
+    border: 1px solid #E8E8E8;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.input{
+    width: 360px;
+    height: 360px;
+    display: flex;
+    margin: 0px auto;
+}
+
+.order{
+    width: 270px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers{
+    display: flex;
+    width: 270px;
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
+.input1{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 360px;
+    gap: 10px;
+}
+
+.ofOutput{
+    width: 100%;
+    height: 48%;
+    background-color: #f7f4f4;
+    box-sizing: border-box;
+}
+
+.controls{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 360px;
+    gap: 10px;
+}
+
+.control, .symbM{
+    width: 80px;
+    height: 60px;
+    font-size: 1.618rem;
+    font-weight: bold;
+    border-radius: 8%;
+    background-color: #0e0d0d;
+}
+
+.control:hover, .num:hover, .dot:hover{
+    background-color: #414141;
+}
+
+.num{
+    width: 83px;
+    height: 60px;
+    background-color: #1E1E1E;
+    font-size: 1.618rem;
+    border-radius: 8%;
+    font-weight: bold;
+}
+
+.dot{
+    background-color: #0e0d0d;
+}
+
+.clear{
+    background-color: #720002;
+    width: 48%;
+    font-weight: bold;
+    font-size: 1.618rem;
+    border-radius: 10px;
+}
+.clear:hover{
+    background-color: #db0004;
+}
+
+.del{
+    background-color: #BE6F01;
+    width: 48%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.del:hover{
+    background-color: #f18d00;
+}
+
+.equalsTo{
+    position: absolute;
+    bottom: 32px;
+    left: 52%;
+    background-color: #002903;
+    width: 43%;
+    font-size: 1.826rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.equalsTo:hover{
+    background-color: green;
+}
+
+.ques{
+    letter-spacing: 1.5px;
+    padding: 4px;
+    text-align: right;
+    color: #000000;
+    line-height: 100%;
+    border-bottom: solid 1px rgb(226, 226, 226);
+    font-size: 1.618rem;
+    font-weight: 200;
+}
+
+.ans{
+    color: black;
+    text-align: right;
+    font-size: 1.618rem;
+    padding: 5% 1%;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+}

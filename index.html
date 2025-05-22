@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="Hnav">
+        <h3>Best Calculator</h3>
+    </nav>
+
+    <main>
+        <div class="frame">
+            <div class="output">
+                <div class="ques ofOutput"></div>
+                <div class="ans ofOutput"></div>
+            </div>
+            <div class="input">
+                <div class="input1">
+
+                    <div class="order">
+                        <button class="clear symbM">C</button>
+                        <!-- <button class="del symbM"><span>&#x2665;</span> Delete</button> -->
+                        <button class="del symbM"><span>&#9003;</span> Delete</button>
+                    </div>
+
+                    <div class="numbers">                
+                        <button value="1" class="num the1">1</button>
+                        <button value="2" class="num the2">2</button>
+                        <button value="3" class="num the3">3</button>
+                        <button value="4" class="num the4">4</button>
+                        <button value="5" class="num the5">5</button>
+                        <button value="6" class="num the6">6</button>
+                        <button value="7" class="num the7">7</button>
+                        <button value="8" class="num the8">8</button>
+                        <button value="9" class="num the9">9</button>
+                        <button value="0" class="num the9">0</button>
+                        <button value="." class="num dot">.</button>
+                    </div>
+            </div>
+
+            <div class="controls">
+                <button value="+" class="control symb">&plus;</button>
+                <button  value="-" class="control symb">&minus;</button>
+                <button  value="/" class="control symb">&divide;</button>
+                <button  value="*" class="control symb">&times;</button>
+            </div>
+            <button value='=' class="control symb equalsTo">&equals;</button>  
+                        
+
+        </div>
+    </main>
+
+    <nav class="footerNav">
+        <p> &copy; 2025. Michael One TOP Project</p>
+    </nav>
+
+    <script src="script.js"></script>
+    <!-- <script src="scriptCalc.js"></script> -->
+</body>
+</html>

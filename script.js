@@ -13,6 +13,8 @@ const clearBtn = document.querySelector('.clear');
 
 equalsBtn.setAttribute('disabled', 'disabled');
 delBtn.setAttribute('disabled', 'disabled');
+dot.setAttribute('disabled', 'disabled');
+
 dDisabler(allControl);
 
 /** Global Variables */
@@ -45,6 +47,7 @@ dNumbers.addEventListener('click', (event) => {
             }
             unDisabler(allControl);
             delBtn.removeAttribute('disabled');
+            dot.removeAttribute('disabled');
         }
 
         if (book > 1) {
@@ -79,7 +82,9 @@ dControls.addEventListener('click', (event) => {
 });
 
 equalsBtn.addEventListener('click', () => {
-    equalsBtn.setAttribute('disabled', 'true');
+    // equalsBtn.setAttribute('disabled', 'true');
+    dot.setAttribute('disabled', 'disabled');
+
     
     num2 = parseFloat(secondNum.join(''));
     solve(num1, num2);

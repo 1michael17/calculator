@@ -5,11 +5,9 @@
     font-family: Palatino Linotype, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-nav, .footerNav{
+.footerNav{
     height: 40px;
-    background-color: #000833;
-    background: linear-gradient(0deg, #00000099, #00000099), linear-gradient(270deg, #300AA2 0%, #613EFB 36%, #000645 99.99%);
-    color: black;
+    background-color: #C7C4C4;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -25,6 +23,8 @@ nav, .footerNav{
 nav p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    color: black;
+
 }
 body{
     display: flex;
